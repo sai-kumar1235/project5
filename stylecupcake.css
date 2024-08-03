@@ -1,0 +1,76 @@
+#cpag1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+}
+#cpag1 h1{
+    font-size: 6em;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+}
+#cpag2-head{
+    background-color: #070606ce;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+#cpag2-head h1{
+    font-size: 3rem;
+}
+#cpag2-head p{
+    width: 100%;
+}
+#cpag2-products{
+    display: flex;
+}
+#cupcake1{
+    height: 200px;
+    width: 280px;
+    background-image: url(./cupcakeimg/cup1.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#cupcake2{
+    height: 200px;
+    width: 280px;
+    background-image: url(./cupcakeimg/cup2.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#cupcake3{
+    height: 200px;
+    width: 280px;
+    background-image: url(./cupcakeimg/cup3.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#cupcake4{
+    height: 200px;
+    width: 280px;
+    background-image: url(./cupcakeimg/cup4.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.cards p{
+    width: 100%;
+    text-align: left;
+}
+.bold{
+    font-weight: 900;
+}
+@media screen and (max-width:700px){
+    #cpag1 h1{
+        font-size: 80px;
+    }
+}

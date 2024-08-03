@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat,Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: rgba(28, 30, 28, 0.766); */
+    padding: 0px 110px; 
+    padding-left: 80px;
+    position: fixed;
+    gap: 3.5vw;
+    z-index: 99;
+    font-size: 20px;
+    color: #eadddd;
+}
+#nav img{
+    height: 68px;
+
+}
+#nav li{
+    list-style-type: none;
+}
+#nav li a{
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+}
+#video1{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+#main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.378);
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 180px;
+}
+#page1 h1{
+    font-size: 140px;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+}
+#page1 h1::before{
+    content: "Eat. Bake. Relax.";
+    position: absolute;
+    color: #000000;
+    top: -6px;
+    left: -6px;
+    z-index: -1;
+    -webkit-text-stroke: 1.5px #1c8eff;
+}
+#page1 h2{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#page1 p{
+    font-size: 20px;
+    font-weight: 500;
+    width: 40%;
+}
+button{
+    margin-top: 50px;
+    background-color: transparent;
+    color: #fefeff;
+    padding: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 50px;
+    transition: ease-in-out 1s;
+}
+.but1:hover{
+    background-color: #000000;
+}
+#page2-head{
+    background-color: #070606ce;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+#page2-head h1{
+    font-size: 3rem;
+}
+#page2-head p{
+    width: 65%;
+    text-align: center;
+}
+#page2-products{
+    display: flex;
+}
+.cards{
+    margin-top: 30px;
+    height: 300px;
+    width: 280px;
+    margin-right: 10px;
+}
+#cupcakes{
+    height: 300px;
+    width: 280px;
+    background-image: url(./cupcakes_500x600_crop_center.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#cakes{
+    height: 300px;
+    width: 280px;
+    background-image: url(./cakes_500x600_crop_center.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#brownies{
+    height: 300px;
+    width: 280px;
+    background: url(./brownies_500x600_crop_center.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+#pudding{
+    height: 300px;
+    width: 280px;
+    background: url(./Peanut_Butter_Chocolate_Pudding_1_5c555d39-6289-4289-8dea-340786ae72be_500x600_crop_center-Photoroom.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #2b262adf;
+    display: flex;
+}
+#pag3img{
+    width: 50%; 
+    padding-top: 170px;
+    
+}
+#pag3img img{
+    object-fit: contain;
+    width: 50vw;
+    height: 65vh;
+    background-color: #703676e2;
+}
+#pg3txt{
+    padding-top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+#ph1{
+    height: 65vh;
+    padding-top: 80px;
+    background-color: #58275ce2;
+}
+#ph1 h1{
+    font-size: 50px;
+}
+#ph1 p{
+    text-align: center;
+    font-size: 18px;
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 30px;
+}
+#bfoot{
+    height: 50vh;
+    width: 100%;
+    background-color: #2b262aa5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cards1{
+    height: 50%;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+#bfoot1{
+    object-fit: contain;
+    overflow: hidden;
+}
+#bfoot1::before{
+    content: "Cakes";
+    position:absolute;
+    font-size: 70px;
+    background-color: #5799cc;
+    height: 170px;
+    width: 460px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 900;
+}
+#bfoot2{
+    object-fit: contain;
+    overflow: hidden;
+}
+#bfoot2::before{
+    content: "Cupcakes";
+    position:absolute;
+    font-size: 70px;
+    background-color: #5799cc;
+    height: 170px;
+    width: 460px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 900;
+}
+#bfoot2 img{
+    height: 500px;
+    width: 500px;
+}
+#bfoot3{
+    object-fit: contain;
+    overflow: hidden;
+}
+#bfoot3::before{
+    content: "Brownies";
+    position:absolute;
+    font-size: 70px;
+    background-color: #5799cc;
+    height: 170px;
+    width: 460px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 900;
+    z-index: 1;
+}
+#bfoot3 img{
+    transform: translateY(-10%);
+    z-index: -1;
+}
+#bfoot3:hover:before{
+    background-color: transparent;
+    color: #4a3b3b;
+}
+#bfoot2:hover::before{
+    background-color: transparent;
+    color: #000;
+}
+#bfoot1:hover::before{
+    background-color: transparent;
+    color: #05d8f4;
+}
+#foot{
+    height: 50vh;
+    width: 100%;
+    background-color: #171616;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 30px;
+}
+#foot img{
+    height: 100px;
+}
+#foot ul{
+    list-style-type: none;
+}
+#foot ul li a{
+    text-decoration: none;
+}
+#cop{
+    background-color: #040404;
+    font-size: 20px;
+}
+
+
+.fir p{
+    font-size: 18px;
+    margin: 2px;
+    width: 10vw;
+}
+.las{
+    width: 20vw;
+}
+.gender{
+    font-size: 18px;
+}
+.gen{
+    width: 340px;
+}
+.registra{
+    margin-left: 6vw;
+}
+#log{
+    padding-top: 200px;
+    /* background-color: rgba(0, 0, 0, 0.37); */
+    height: 100vh;
+    width:100%;
+    color: #000;
+    padding-left: 50vh;
+}
+.log1{
+    /* background-color: #030303d5; */
+    color: #000;
+}
+#log{
+    color: #000;
+}
+#aboutus{
+    height: 100vh;
+    width: 100%;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #000000;
+    text-align: center;
+    line-height: 40px;
+}
+#aboutus p{
+    font-size: 20px;
+}
+#log{
+    background-color: #00000086;
+}
+@media screen and (max-width:700px){
+    #cpag2-products{
+        flex-direction: column;
+    }
+    #cpag2{
+        height: 270vh;
+        background-color: #000000;
+    }
+    .cards{
+        margin-bottom: 30px;
+    }
+    #nav{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    #cpag1 h1{
+        font-size: 6rem;
+    }
+    #bfoot{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    #aboutus{
+        overflow: hidden;
+    }
+    #foot{
+        flex-direction: column;
+    }
+    #foot img{
+        width: 10vw;
+    }
+}
+.ptag{
+    text-align: center;
+    width: 65%;
+}

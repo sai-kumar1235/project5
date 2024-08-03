@@ -1,0 +1,35 @@
+.log1 input[type=submit]{
+    color: #000;
+}
+.log1 input[type=text]{
+    color: #000;
+    height: 30px;
+    border-radius: 30px;
+    padding-left: 5px;
+}
+.log1 input[type=password]{
+    color: #000;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 30px;
+}
+.log1{
+    /* background-color: #3a3535f0; */
+    height: 50vh;
+    text-align: center;
+    width: 50vw;
+    padding-top: 50px;
+}
+.log1 form{
+    font-size: 20px;
+    line-height: 70px;
+}
+.log1 h1{
+    font-size: 40px;
+}
+.log1 form input[type=submit]{
+    padding: 8px;
+    border-radius: 30px;
+    color: #fffbfb;
+    background-color: #382585;
+}

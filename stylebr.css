@@ -1,0 +1,28 @@
+#br1{
+    height: 200px;
+    width: 280px;
+    background-image: url(./brownieimg/b1.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#br2{
+    height: 200px;
+    width: 280px;
+    background-image: url(./brownieimg/b2.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#br3{
+    height: 200px;
+    width: 280px;
+    background-image: url(./brownieimg/b3.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#br4{
+    height: 200px;
+    width: 280px;
+    background-image: url(./brownieimg/b4.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}

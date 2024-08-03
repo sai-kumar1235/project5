@@ -1,0 +1,34 @@
+#cpag2{
+    background-color: #1a1818;
+}
+#cookie1{
+    height: 200px;
+    width: 280px;
+    background-image: url(./cookieimages/cookie1.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#cookie2{
+    height: 200px;
+    width: 280px;
+    background-image: url(./cookieimages/cookie2.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#cookie3{
+    height: 200px;
+    width: 280px;
+    background-image: url(./cookieimages/cookie3.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#cookie4{
+    height: 200px;
+    width: 280px;
+    background-image: url(./cookieimages/cookie4.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.ptag{
+    margin-left: 20px;
+}
